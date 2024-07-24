@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: #5c5c5c;
+    font-family: "Poppins", sans-serif;
+    margin: 0 auto;
+    padding: 0;
+}
+
+button{
+    width: 200px;
+    height: 200px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+h1,h2,h3{
+    color: white;
+    margin: 2rem;
+    padding: 1rem;
+    position: relative;
+    text-align: center;
+}
+
+h2{
+    font-weight: 500;
+    opacity: 90%;
+}
+
+h3{
+    font-weight: 400;
+    opacity: 90%;
+}
+
+#bienvenida{
+    background: #303030;
+    border-radius: 3rem;
+    margin: 0 auto;
+    padding: 12px;
+    width: 65%;
+}
+
+#perfil,#educacion,#experiencia,#certificaciones{
+    background: #ffffff;
+    border-radius: 1rem;
+    margin: 0 auto;
+    padding: 12px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    font-weight: 400;
+    color: #303030;
+    width: 1220px;
+    font-size: 20px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: auto;
+    width: 600px;
+}
+
+.header{
+    align-items: center;
+    background-color: #303030;
+    display: flex;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    height: 85px;
+    justify-content: space-between;
+    padding: 5px 10%;
+}
+
+.header .logo img{
+    height: 30px;
+    transition: all 0.3s;
+}
+
+.header .logo img:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 20px;
+    transition: all 0.1s;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    color: #fefefe;
+    font-size: 700;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    color: #08ff08;
+}
+
+.hojadevida{
+    margin: 0 auto;
+    padding: 10px;
+    width: 65%;
+}
+
+.perfil{
+    width: 50%;
+    padding: 10px;
+}
